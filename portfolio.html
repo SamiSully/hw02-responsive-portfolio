@@ -1,3 +1,4 @@
+<!-- The portfolio page of the site -->
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -17,46 +18,81 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <!-- Link tot he CSS stylesheet -->
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><h2>Sami Sully</h2></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html"
-              >About</a
-            >
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-            
-          </li>
-        </ul>
-      </div>
-    </nav>
+       <!-- Navbar at the top of the page-->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><h2>Sami Sully</h2></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- The links that align at the top right of the page -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html"
+                  >About <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </nav>
 
-<div class="container">
-<div class="row">
+<!-- The container that holds the main content of the page -->
+  <div class="container">
+    <!-- The bootstrap grid in order to hold responsive images -->
+    <div class="row">
+      <h1>Pages Coming Soon!</h1>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="./assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
+        <img src="./assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+      <div class="col-md-3">
+        <img src="./assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
+        <img src="./assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+      <div class="col-md-3">
+        <img src="./assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
+        <img src="./assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+      <div class="col-md-3">
+        <img src="./assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
+        <img src="./assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+    
+  </div>
 
   
 </div>
 
 </div>
 
-
+<!-- The footer on the page -->
     <footer></footer>
 
+    <!-- The Javascript portion of bootstrap to the page so it will load correctly -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

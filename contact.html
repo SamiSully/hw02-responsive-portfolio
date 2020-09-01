@@ -20,58 +20,88 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
+    <!-- Navbar at the top of the page-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><h2>Sami Sully</h2></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html"
-              >About</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
-          </li>
-            
-          </li>
+      <a class="navbar-brand" href="#"><h2>Sami Sully</h2></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- The links that align at the top right of the page -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html"
+                >Contact<span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
         </ul>
       </div>
     </nav>
 
+    <!-- the container for the main content on the site -->
     <div class="container">
-        <div class="row">
-    <div class="col-sm-12 col-md-10 col-lg-8">
-<h1>Contact</h1>
-<hr>
-    <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+      <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <h1>Contact</h1>
+          <hr />
+          <!-- The contact form -->
+          <form>
+            <!-- form for name input -->
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <!-- form for email input -->
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <!-- form for message input -->
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="4"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-          </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
       </div>
     </div>
-    </div>
 
+    <!-- This places the footer on the page -->
     <footer></footer>
 
+    <!-- This adds in the Javascript portion of bootstrap to the page so it will load correctly -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
