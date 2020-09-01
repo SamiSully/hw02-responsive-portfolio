@@ -29,10 +29,10 @@ body {
 
 /* This changes the image padding and width of images on the site for contistancy */
 .container img {
+  display: block;
   padding: 1rem;
   width: 12rem;
   height: auto;
-  float: left;
 }
 
 /* This changes the color and font-face of the headers used within the main content boxes */
@@ -60,4 +60,10 @@ h2 {
 /* Changes the color of the button on the Contact page when hovering over it */
 .btn:hover {
   background-color: teal;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
