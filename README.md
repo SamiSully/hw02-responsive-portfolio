@@ -4,7 +4,7 @@
 
 
 ## Demo
-(https://samisully.github.io/hw01-code-refactor/)
+(https://samisully.github.io/responsive-portfolio/)
 
 ## Description 
 
